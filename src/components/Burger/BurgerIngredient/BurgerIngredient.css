@@ -1,0 +1,197 @@
+:root {
+  --border-color: #6b3152;
+  --border: var(--border-size) solid var(--border-color);
+  --border-size: 5px;
+  --margin: 0 auto;
+  --box-shadow: inset -3px -3px rgba(0, 0, 0, .1);
+}
+
+.BreadTop {
+  border: var(--border);
+  box-shadow: inset -50px -30px #efb573;
+  height: 30%;
+  width: 80%;
+  background-color: #f7deb5;
+  border-radius: 190px 190px 10px 10px;
+  margin: var(--margin);
+  position: relative;
+}
+
+.BreadBottom {
+  border: var(--border);
+  box-shadow: inset -50px -30px #efb573;
+  height: 12%;
+  width: 80%;
+  background-color: #f7deb5;
+  border-radius: 10px 10px 30px 30px;
+  margin: var(--margin);
+}
+
+.Seeds1 {
+  width: 3%;
+  height: 6%;
+  position: absolute;
+  background-color: var(--border-color);
+  left: 30%;
+  top: 50%;
+  border-radius: 40%;
+  transform: rotate(-20deg);
+}
+
+  .Seeds1:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--border-color);
+    left: -170%;
+    top: -260%;
+    border-radius: 40%;
+    transform: rotate(60deg);
+  }
+
+  .Seeds1:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--border-color);
+    left: 180%;
+    top: -50%;
+    border-radius: 40%;
+    transform: rotate(60deg);
+  }
+
+.Seeds2 {
+  width: 3%;
+  height: 6%;
+  position: absolute;
+  background-color: var(--border-color);
+  left: 64%;
+  top: 50%;
+  border-radius: 40%;
+  transform: rotate(10deg);
+}
+
+.Seeds2:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: var(--border-color);
+  left: 150%;
+  top: -130%;
+  border-radius: 40%;
+  transform: rotate(90deg);
+}
+
+.Bacon {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  width: 80%;
+  height: 2%;
+  background-color: #c45e38;
+  margin: calc(var(--border-size) * -1) auto;
+}
+
+.Bbq {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  width: 78%;
+  height: 1%;
+  background-color: #681313;
+  margin: calc(var(--border-size) * -1) auto;
+}
+
+.Beetroot {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  width: 75%;
+  height: 3%;
+  background: #CB2F70;
+  margin: calc(var(--border-size) * -1) auto;
+}
+
+.Mayo {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  width: 78%;
+  height: 1%;
+  background-color: #fefbf7;
+  margin: calc(var(--border-size) * -1) auto;
+}
+
+.Meat {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  width: 85%;
+  height: 9%;
+  background-color: #944a4a;
+  margin: calc(var(--border-size) * -1) auto;
+  border-radius: 40px;
+}
+
+.Mustard {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  width: 78%;
+  height: 1%;
+  background-color: #EACB57;
+  margin: calc(var(--border-size) * -1) auto;
+}
+
+.Cheese {
+  border: var(--border);
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  width: 88%;
+  height: 2%;
+  margin: calc(var(--border-size) * -1) auto;
+  background-color: #f7e7b5;
+}
+
+.Lettuce {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  width: 90%;
+  height: 1%;
+  margin: calc(var(--border-size) * -1) auto;
+  background-color: #adce7b;
+  border-radius: 20px;
+}
+
+.Egg {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  width: 75%;
+  height: 3.5%;
+  background: #fefbf7;
+  margin: calc(var(--border-size) * -1) auto;
+}
+
+.Pineapple {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  width: 70%;
+  height: 4%;
+  background: #ffec88;
+  margin: calc(var(--border-size) * -1) auto;
+}
+
+.Relish {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  width: 78%;
+  height: 1%;
+  background-color: #E1461E;
+  margin: calc(var(--border-size) * -1) auto;
+}
+
+.Tomato {
+  border: var(--border);
+  box-shadow: inset 30px 0px white;
+  width: 65%;
+  height: 4%;
+  background: #d6392a;
+  margin: calc(var(--border-size) * -1) auto;
+}

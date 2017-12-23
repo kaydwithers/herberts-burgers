@@ -1,0 +1,97 @@
+.BuildControl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.BuildControl button {
+  color: #666666;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 25px;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 20px;
+  margin: 5px;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  transition-property: all;
+  transition-duration: .3s;
+
+  position: relative;
+  top: 0;
+  box-shadow: 0 7px 0 #bbbbbb, 0 8px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.BuildControl button:hover, 
+.BuildControl button:focus {
+  box-shadow: 0 7px 0 #bbbbbb, 0 8px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.BuildControl button:active, 
+.BuildControl button.active {
+  top: 5px;
+  transition-property: all;
+  transition-duration: .15s;
+  box-shadow: 0 2px 0 #bbbbbb, 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.BuildControl button:visited {
+  color: #666666; 
+}
+
+.BuildControl button:hover,
+.BuildControl button:focus {
+  background-color: #f6f6f6;
+  text-decoration: none;
+  outline: none;
+}
+
+.BuildControl button:disabled,
+.BuildControl button:hover:disabled {
+  top: 0;
+  background: #EEE;
+  text-shadow: 0 1px 1px white;
+  color: #CCC;
+  cursor: default;
+  appearance: none;
+}
+
+.Label {
+  width: 150px;
+}
+
+.Label p {
+  margin: 0;
+}
+
+/* .BuildControl .Less {  
+  background-color: #64dd17;
+}
+
+.BuildControl .More {
+  background-color: #64dd17;
+} */
+
+.BuildControl .Less:hover, 
+.BuildControl .Less:active {  
+
+}
+
+.BuildControl .More:hover,
+.BuildControl .More:active {
+
+}
+
+.BuildControl:focus {
+  outline: none;
+}
