@@ -32,6 +32,7 @@ class Layout extends Component {
           open={this.state.showSideDrawer}
         />
         <main className={classes.Content}>
+          <h1>Build + Order</h1>
           {this.props.children}
         </main>
       </Auxiliary>

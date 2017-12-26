@@ -12,7 +12,7 @@ const toolbar = (props) => (
   >
     <DrawerToggle clicked={props.drawerToggleClicked} />
     <div className={classes.Logo}>
-      <p><strong>Herbert's Burgers</strong></p>
+      <p><strong>Herbs' Burgs</strong> (Herbert's Burgers)</p>
       {/* <Logo /> */}
     </div>
 

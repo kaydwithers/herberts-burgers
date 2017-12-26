@@ -5,8 +5,9 @@ import classes from './BuildControl.css'
 const buildControl = ( props ) => (
   <div className={classes.BuildControl}>
     <div className={classes.Label}>
-      <p><strong>{props.label}</strong> ${props.ingredientPrice}</p>
+      <p><strong>{props.label}</strong>{/* TODO  ${props.ingredientPrice}*/}</p>
     </div>
+
     <button 
       className={classes.Less}
       disabled={props.disabled}
@@ -14,6 +15,11 @@ const buildControl = ( props ) => (
     >
       -
     </button>
+
+    {/* TODO
+    <p>{ingredientQuantity}</p>
+    */}
+
     <button 
       className={classes.More}
       onClick={props.added} 

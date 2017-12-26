@@ -30,8 +30,10 @@ const buildControls = ( props ) => (
         price={props.ingredientPrice}
       />
     ))}
+
     <br />
     <p>Current price: <strong>${props.price.toFixed(2)}</strong></p>
+
     <button
       className={classes.OrderButton}
       disabled={!props.purchasable}

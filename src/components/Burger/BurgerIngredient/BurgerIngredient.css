@@ -96,6 +96,7 @@
 
 .Bbq {
   border: var(--border);
+  border-radius: 20px;
   box-shadow: var(--box-shadow);
   width: 78%;
   height: 1%;
@@ -114,6 +115,7 @@
 
 .Mayo {
   border: var(--border);
+  border-radius: 20px;
   box-shadow: var(--box-shadow);
   width: 78%;
   height: 1%;
@@ -125,7 +127,7 @@
   border: var(--border);
   box-shadow: var(--box-shadow);
   width: 85%;
-  height: 9%;
+  height: 10%;
   background-color: #944a4a;
   margin: calc(var(--border-size) * -1) auto;
   border-radius: 40px;
@@ -133,6 +135,7 @@
 
 .Mustard {
   border: var(--border);
+  border-radius: 20px;
   box-shadow: var(--box-shadow);
   width: 78%;
   height: 1%;
@@ -180,6 +183,7 @@
 
 .Relish {
   border: var(--border);
+  border-radius: 20px;
   box-shadow: var(--box-shadow);
   width: 78%;
   height: 1%;
